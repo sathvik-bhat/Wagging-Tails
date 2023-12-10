@@ -1,0 +1,4 @@
+# [my-aws-instances]
+# ec2-16-16-28-193.eu-north-1.compute.amazonaws.com ansible_ssh_private_key_file=scientific-calculator.pem ansible_user=ubuntu
+[localhost]
+dewanshi ansible_host=192.168.179.161 ansible_user=dewanshi
