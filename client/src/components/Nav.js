@@ -1,5 +1,5 @@
-import whiteLogo from "../images/tinder_logo_white.png";
-import colorLogo from "../images/color-logo-tinder.png";
+import whiteLogo from "../images/logo3r.png";
+import colorLogo from "../images/logo1r.png";
 
 const Nav = ({ authToken, minimal, setShowModal, showModal, setIsSignUp }) => {
   const handleClick = () => {
@@ -19,6 +19,7 @@ const Nav = ({ authToken, minimal, setShowModal, showModal, setIsSignUp }) => {
       {!authToken && !minimal && (
         <button
           className="nav-button"
+          style={{ fontSize: '23px', padding: '6px', width: '150px', height: '75px'/* Add more styles as needed */ }}
           onClick={handleClick}
           disabled={showModal}
         >
