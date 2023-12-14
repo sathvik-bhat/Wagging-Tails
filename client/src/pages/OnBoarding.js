@@ -13,8 +13,8 @@ const OnBoarding = () => {
         dob_month: "",
         dob_year: "",
         show_gender: false,
-        gender_identity: "man",
-        gender_interest: "woman",
+        gender_identity: "male",
+        gender_interest: "female",
         url: "",
         about: "",
         matches: []
@@ -109,24 +109,27 @@ const OnBoarding = () => {
                         <label>Gender</label>
                         <div className="multiple-input-container">
                             <input
-                                id="man-gender-identity"
+                                // id="man-gender-identity"
+                                id="male-gender-identity"
                                 type="radio"
                                 name="gender_identity"
-                                value="man"
+                                value="male"
                                 onChange={handleChange}
-                                checked={formData.gender_identity === "man"}
+                                checked={formData.gender_identity === "male"}
                             />
-                            <label htmlFor="man-gender-identity">Man</label>
+                            <label htmlFor="male-gender-identity">Male</label>
                             <input
-                                id="woman-gender-identity"
+                                // id="woman-gender-identity"
+                                id="female-gender-identity"
                                 type="radio"
                                 name="gender_identity"
-                                value="woman"
+                                value="female"
                                 onChange={handleChange}
-                                checked={formData.gender_identity === "woman"}
+                                checked={formData.gender_identity === "female"}
                             />
-                            <label htmlFor="woman-gender-identity">Woman</label>
+                            <label htmlFor="female-gender-identity">Female</label>
                             <input
+                                // id="more-gender-identity"
                                 id="more-gender-identity"
                                 type="radio"
                                 name="gender_identity"
@@ -151,23 +154,23 @@ const OnBoarding = () => {
 
                         <div className="multiple-input-container">
                             <input
-                                id="man-gender-interest"
+                                id="male-gender-interest"
                                 type="radio"
                                 name="gender_interest"
-                                value="man"
+                                value="male"
                                 onChange={handleChange}
-                                checked={formData.gender_interest === "man"}
+                                checked={formData.gender_interest === "male"}
                             />
-                            <label htmlFor="man-gender-interest">Man</label>
+                            <label htmlFor="male-gender-interest">Male</label>
                             <input
-                                id="woman-gender-interest"
+                                id="female-gender-interest"
                                 type="radio"
                                 name="gender_interest"
-                                value="woman"
+                                value="female"
                                 onChange={handleChange}
-                                checked={formData.gender_interest === "woman"}
+                                checked={formData.gender_interest === "female"}
                             />
-                            <label htmlFor="woman-gender-interest">Woman</label>
+                            <label htmlFor="female-gender-interest">Female</label>
                             <input
                                 id="everyone-gender-interest"
                                 type="radio"
@@ -186,7 +189,7 @@ const OnBoarding = () => {
                             type="text"
                             name="about"
                             required={true}
-                            placeholder="I like long walks..."
+                            placeholder="I am an owner of 2 cats and 1 dog, looking to adopt another stray..."
                             value={formData.about}
                             onChange={handleChange}
                         />
