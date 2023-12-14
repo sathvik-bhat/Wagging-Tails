@@ -10,6 +10,7 @@ const AuthModal = ({ setShowModal,  isSignUp }) => {
     const [confirmPassword, setConfirmPassword] = useState(null)
     const [error, setError] = useState(null)
     const [ cookies, setCookie, removeCookie] = useCookies(null)
+    const [selectedOption, setSelectedOption] = useState('Human');
 
     let navigate = useNavigate()
 
@@ -46,6 +47,11 @@ const AuthModal = ({ setShowModal,  isSignUp }) => {
 
     }
 
+    const handleToggle = () => {
+        // Toggle between 'Human' and 'Furry Friend'
+        setSelectedOption(selectedOption === 'Human' ? 'Furry Friend' : 'Human');
+    };
+
     return (
         <div className="auth-modal">
             <div className="close-icon" onClick={handleClick}>ⓧ</div>
@@ -77,12 +83,39 @@ const AuthModal = ({ setShowModal,  isSignUp }) => {
                     required={true}
                     onChange={(e) => setConfirmPassword(e.target.value)}
                 />}
+                {/*{isSignUp && (*/}
+                {/*    <div>*/}
+                {/*        <label>Account Type:</label>*/}
+                {/*        <button type="button" onClick={handleToggle}>*/}
+                {/*            {selectedOption}*/}
+                {/*        </button>*/}
+                {/*    </div>*/}
+                {/*)}*/}
+                {isSignUp && (
+                    <div>
+                        <label>Account Type: </label>
+                        <button
+                            type="button"
+                            onClick={handleToggle}
+                            style={{
+                                padding: '20px 20px',
+                                backgroundColor: '#E06666',
+                                color: 'white',
+                                border: 'none',
+                                borderRadius: '20px',
+                                cursor: 'pointer',
+                            }}
+                        >
+                            {selectedOption}
+                        </button>
+                    </div>
+                )}
                 <input className="secondary-button" type="submit"/>
                 <p>{error}</p>
             </form>
 
             <hr/>
-            <h2>GET THE APP</h2>
+            <h2>GET THE APP.</h2>
 
         </div>
     )
