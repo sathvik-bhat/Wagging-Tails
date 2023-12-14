@@ -5,7 +5,27 @@ const {v4: uuidv4} = require('uuid')
 const jwt = require('jsonwebtoken')
 const cors = require('cors')
 const bcrypt = require('bcrypt')
+const winston = require("winston");
+
 require('dotenv').config()
+
+const logger = winston.createLogger({
+  // Log only if level is less than (meaning more severe) or equal to this
+  level: "info",
+  // Use timestamp and printf to create a standard log format
+  format: winston.format.combine(
+    winston.format.timestamp(),
+    winston.format.printf(
+      (info) => `${info.timestamp} ${info.level}: ${info.message}`
+    )
+  ),
+  // Log to the console and a file
+  transports: [
+    new winston.transports.Console(),
+    new winston.transports.File({ filename: "logs/app.log" }),
+  ],
+});
+
 
 const uri = process.env.URI
 
@@ -18,11 +38,20 @@ app.get('/', (req, res) => {
     res.json('Hello to my app')
 })
 
+
+app.use((req, res, next) => {
+  // Log an info message for each incoming request
+  logger.info(`Received a ${req.method} request for ${req.url}`);
+  next();
+});
+
 // Sign up to the Database
 app.post('/signup', async (req, res) => {
+    // const uri = process.env.URI
+    // const uri = "mongodb+srv://sathvikibhat:tmPfLllBWCmRIrEG@cluster0.5ujsgy9.mongodb.net/?retryWrites=true&w=majority"
     const client = new MongoClient(uri)
     const {email, password} = req.body
-
+    // logger.info(client)
     const generatedUserId = uuidv4()
     const hashedPassword = await bcrypt.hash(password, 10)
 
@@ -30,22 +59,25 @@ app.post('/signup', async (req, res) => {
         await client.connect()
         const database = client.db('app-data')
         const users = database.collection('users')
-
+        
         const existingUser = await users.findOne({email})
-
-        if (existingUser) {
-            return res.status(409).send('User already exists. Please login')
-        }
-
+        
+        // logger.info(existingUser)
+        // if (existingUser) {
+        //     return res.status(409).send('User already exists. Please login')
+        // }
+        
         const sanitizedEmail = email.toLowerCase()
-
+        // logger.info(sanitizedEmail)
         const data = {
             user_id: generatedUserId,
             email: sanitizedEmail,
             hashed_password: hashedPassword
         }
-
+        // logger.info(data)
+        
         const insertedUser = await users.insertOne(data)
+        logger.info(insertedUser)
 
         const token = jwt.sign(insertedUser, sanitizedEmail, {
             expiresIn: 60 * 24
@@ -54,6 +86,7 @@ app.post('/signup', async (req, res) => {
 
     } catch (err) {
         console.log(err)
+        logger.log("error", err)
     } finally {
         await client.close()
     }
@@ -83,6 +116,7 @@ app.post('/login', async (req, res) => {
         res.status(400).json('Invalid Credentials')
 
     } catch (err) {
+        logger.log("error", err)
         console.log(err)
     } finally {
         await client.close()
@@ -254,3 +288,5 @@ app.post('/message', async (req, res) => {
 
 
 app.listen(PORT, () => console.log('server running on PORT ' + PORT))
+logger.log("info", `App listening on port ${PORT}!`);
+module.exports = app;

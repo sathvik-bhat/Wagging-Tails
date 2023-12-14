@@ -1,0 +1,304 @@
+2023-12-09T19:52:57.403Z info: App listening on port 8000!
+2023-12-09T19:53:03.902Z info: Received a POST request for /login
+2023-12-09T19:53:05.480Z error: Cannot set headers after they are sent to the client
+2023-12-09T19:53:05.965Z info: Received a GET request for /user?userId=58c1f033-5b69-46fc-a41d-0623064039c8
+2023-12-09T19:53:06.385Z info: Received a GET request for /gendered-users?gender=woman
+2023-12-09T19:53:06.390Z info: Received a GET request for /users?userIds=[%22670d2f2c-2f48-44d8-8b13-f4b1de4726ff%22,%22e0f0e6b0-464d-4a87-bf43-bcd8dc2fc86a%22]
+2023-12-09T19:55:17.229Z info: Received a GET request for /user?userId=58c1f033-5b69-46fc-a41d-0623064039c8
+2023-12-09T19:55:18.629Z info: Received a GET request for /users?userIds=[%22670d2f2c-2f48-44d8-8b13-f4b1de4726ff%22,%22e0f0e6b0-464d-4a87-bf43-bcd8dc2fc86a%22]
+2023-12-09T19:55:18.635Z info: Received a GET request for /gendered-users?gender=woman
+2023-12-09T19:55:50.274Z info: Received a POST request for /login
+2023-12-09T19:55:51.167Z error: Cannot set headers after they are sent to the client
+2023-12-09T19:55:51.507Z info: Received a GET request for /user?userId=e0f0e6b0-464d-4a87-bf43-bcd8dc2fc86a
+2023-12-09T19:55:52.103Z info: Received a GET request for /users?userIds=[]
+2023-12-09T19:55:52.108Z info: Received a GET request for /gendered-users?gender=man
+2023-12-09T19:56:03.924Z info: Received a PUT request for /addmatch
+2023-12-09T19:56:04.354Z info: Received a GET request for /user?userId=e0f0e6b0-464d-4a87-bf43-bcd8dc2fc86a
+2023-12-09T19:56:04.794Z info: Received a GET request for /users?userIds=[%2258c1f033-5b69-46fc-a41d-0623064039c8%22]
+2023-12-09T19:56:04.801Z info: Received a GET request for /gendered-users?gender=man
+2023-12-09T19:56:10.727Z info: Received a GET request for /user?userId=e0f0e6b0-464d-4a87-bf43-bcd8dc2fc86a
+2023-12-09T19:56:11.082Z info: Received a GET request for /gendered-users?gender=man
+2023-12-09T19:56:11.090Z info: Received a GET request for /users?userIds=[%2258c1f033-5b69-46fc-a41d-0623064039c8%22]
+2023-12-09T19:56:20.137Z info: Received a POST request for /login
+2023-12-09T19:56:21.206Z error: Cannot set headers after they are sent to the client
+2023-12-09T19:56:21.404Z info: Received a GET request for /user?userId=58c1f033-5b69-46fc-a41d-0623064039c8
+2023-12-09T19:56:21.747Z info: Received a GET request for /users?userIds=[%22670d2f2c-2f48-44d8-8b13-f4b1de4726ff%22,%22e0f0e6b0-464d-4a87-bf43-bcd8dc2fc86a%22]
+2023-12-09T19:56:21.749Z info: Received a GET request for /gendered-users?gender=woman
+2023-12-09T19:56:27.346Z info: Received a GET request for /messages?userId=58c1f033-5b69-46fc-a41d-0623064039c8&correspondingUserId=e0f0e6b0-464d-4a87-bf43-bcd8dc2fc86a
+2023-12-09T19:56:27.348Z info: Received a GET request for /messages?userId=e0f0e6b0-464d-4a87-bf43-bcd8dc2fc86a&correspondingUserId=58c1f033-5b69-46fc-a41d-0623064039c8
+2023-12-09T19:56:32.822Z info: Received a POST request for /message
+2023-12-09T19:56:33.239Z info: Received a GET request for /messages?userId=58c1f033-5b69-46fc-a41d-0623064039c8&correspondingUserId=e0f0e6b0-464d-4a87-bf43-bcd8dc2fc86a
+2023-12-09T19:56:33.246Z info: Received a GET request for /messages?userId=e0f0e6b0-464d-4a87-bf43-bcd8dc2fc86a&correspondingUserId=58c1f033-5b69-46fc-a41d-0623064039c8
+2023-12-09T19:56:38.887Z info: Received a GET request for /messages?userId=e0f0e6b0-464d-4a87-bf43-bcd8dc2fc86a&correspondingUserId=58c1f033-5b69-46fc-a41d-0623064039c8
+2023-12-09T19:56:38.889Z info: Received a GET request for /messages?userId=58c1f033-5b69-46fc-a41d-0623064039c8&correspondingUserId=e0f0e6b0-464d-4a87-bf43-bcd8dc2fc86a
+2023-12-09T19:56:44.216Z info: Received a POST request for /message
+2023-12-09T19:56:44.637Z info: Received a GET request for /messages?userId=e0f0e6b0-464d-4a87-bf43-bcd8dc2fc86a&correspondingUserId=58c1f033-5b69-46fc-a41d-0623064039c8
+2023-12-09T19:56:44.642Z info: Received a GET request for /messages?userId=58c1f033-5b69-46fc-a41d-0623064039c8&correspondingUserId=e0f0e6b0-464d-4a87-bf43-bcd8dc2fc86a
+2023-12-09T19:56:50.806Z info: Received a GET request for /user?userId=58c1f033-5b69-46fc-a41d-0623064039c8
+2023-12-09T19:56:51.254Z info: Received a GET request for /users?userIds=[%22670d2f2c-2f48-44d8-8b13-f4b1de4726ff%22,%22e0f0e6b0-464d-4a87-bf43-bcd8dc2fc86a%22]
+2023-12-09T19:56:51.258Z info: Received a GET request for /gendered-users?gender=woman
+2023-12-09T19:56:53.227Z info: Received a GET request for /messages?userId=58c1f033-5b69-46fc-a41d-0623064039c8&correspondingUserId=e0f0e6b0-464d-4a87-bf43-bcd8dc2fc86a
+2023-12-09T19:56:53.228Z info: Received a GET request for /messages?userId=e0f0e6b0-464d-4a87-bf43-bcd8dc2fc86a&correspondingUserId=58c1f033-5b69-46fc-a41d-0623064039c8
+2023-12-09T19:59:13.875Z info: Received a POST request for /signup
+2023-12-09T20:00:31.437Z info: Received a PUT request for /user
+2023-12-09T20:00:32.683Z info: Received a GET request for /user?userId=ba08c859-75d3-4004-b016-d05d215ec4a9
+2023-12-09T20:00:33.109Z info: Received a GET request for /users?userIds=[]
+2023-12-09T20:00:33.112Z info: Received a GET request for /gendered-users?gender=man
+2023-12-09T20:00:47.302Z info: Received a POST request for /login
+2023-12-09T20:00:47.732Z error: Cannot set headers after they are sent to the client
+2023-12-09T20:00:47.939Z info: Received a GET request for /user?userId=58c1f033-5b69-46fc-a41d-0623064039c8
+2023-12-09T20:00:48.349Z info: Received a GET request for /users?userIds=[%22670d2f2c-2f48-44d8-8b13-f4b1de4726ff%22,%22e0f0e6b0-464d-4a87-bf43-bcd8dc2fc86a%22]
+2023-12-09T20:00:48.352Z info: Received a GET request for /gendered-users?gender=woman
+2023-12-09T20:00:55.872Z info: Received a PUT request for /addmatch
+2023-12-09T20:00:56.947Z info: Received a GET request for /user?userId=58c1f033-5b69-46fc-a41d-0623064039c8
+2023-12-09T20:00:57.639Z info: Received a GET request for /users?userIds=[%22670d2f2c-2f48-44d8-8b13-f4b1de4726ff%22,%22e0f0e6b0-464d-4a87-bf43-bcd8dc2fc86a%22,%22ba08c859-75d3-4004-b016-d05d215ec4a9%22]
+2023-12-09T20:00:57.642Z info: Received a GET request for /gendered-users?gender=woman
+2023-12-09T20:00:59.597Z info: Received a GET request for /user?userId=58c1f033-5b69-46fc-a41d-0623064039c8
+2023-12-09T20:00:59.994Z info: Received a GET request for /users?userIds=[%22670d2f2c-2f48-44d8-8b13-f4b1de4726ff%22,%22e0f0e6b0-464d-4a87-bf43-bcd8dc2fc86a%22,%22ba08c859-75d3-4004-b016-d05d215ec4a9%22]
+2023-12-09T20:00:59.995Z info: Received a GET request for /gendered-users?gender=woman
+2023-12-09T20:01:03.141Z info: Received a GET request for /user?userId=58c1f033-5b69-46fc-a41d-0623064039c8
+2023-12-09T20:01:03.571Z info: Received a GET request for /users?userIds=[%22670d2f2c-2f48-44d8-8b13-f4b1de4726ff%22,%22e0f0e6b0-464d-4a87-bf43-bcd8dc2fc86a%22,%22ba08c859-75d3-4004-b016-d05d215ec4a9%22]
+2023-12-09T20:01:03.576Z info: Received a GET request for /gendered-users?gender=woman
+2023-12-09T20:01:08.709Z info: Received a GET request for /user?userId=58c1f033-5b69-46fc-a41d-0623064039c8
+2023-12-09T20:01:09.123Z info: Received a GET request for /users?userIds=[%22670d2f2c-2f48-44d8-8b13-f4b1de4726ff%22,%22e0f0e6b0-464d-4a87-bf43-bcd8dc2fc86a%22,%22ba08c859-75d3-4004-b016-d05d215ec4a9%22]
+2023-12-09T20:01:09.126Z info: Received a GET request for /gendered-users?gender=woman
+2023-12-09T20:01:36.329Z info: Received a POST request for /login
+2023-12-09T20:01:37.414Z error: Cannot read properties of null (reading 'hashed_password')
+2023-12-09T20:01:40.738Z info: Received a POST request for /login
+2023-12-09T20:01:41.228Z error: Cannot set headers after they are sent to the client
+2023-12-09T20:01:41.541Z info: Received a GET request for /user?userId=ba08c859-75d3-4004-b016-d05d215ec4a9
+2023-12-09T20:01:41.925Z info: Received a GET request for /users?userIds=[]
+2023-12-09T20:01:41.928Z info: Received a GET request for /gendered-users?gender=man
+2023-12-09T20:01:55.920Z info: Received a PUT request for /addmatch
+2023-12-09T20:01:56.346Z info: Received a GET request for /user?userId=ba08c859-75d3-4004-b016-d05d215ec4a9
+2023-12-09T20:01:56.783Z info: Received a GET request for /users?userIds=[%2258c1f033-5b69-46fc-a41d-0623064039c8%22]
+2023-12-09T20:01:56.791Z info: Received a GET request for /gendered-users?gender=man
+2023-12-09T20:02:02.335Z info: Received a GET request for /user?userId=ba08c859-75d3-4004-b016-d05d215ec4a9
+2023-12-09T20:02:03.820Z info: Received a GET request for /users?userIds=[%2258c1f033-5b69-46fc-a41d-0623064039c8%22]
+2023-12-09T20:02:03.824Z info: Received a GET request for /gendered-users?gender=man
+2023-12-09T20:02:09.896Z info: Received a POST request for /login
+2023-12-09T20:02:10.407Z error: Cannot set headers after they are sent to the client
+2023-12-09T20:02:10.584Z info: Received a GET request for /user?userId=58c1f033-5b69-46fc-a41d-0623064039c8
+2023-12-09T20:02:10.974Z info: Received a GET request for /users?userIds=[%22670d2f2c-2f48-44d8-8b13-f4b1de4726ff%22,%22e0f0e6b0-464d-4a87-bf43-bcd8dc2fc86a%22,%22ba08c859-75d3-4004-b016-d05d215ec4a9%22]
+2023-12-09T20:02:10.976Z info: Received a GET request for /gendered-users?gender=woman
+2023-12-09T20:02:14.045Z info: Received a GET request for /messages?userId=58c1f033-5b69-46fc-a41d-0623064039c8&correspondingUserId=ba08c859-75d3-4004-b016-d05d215ec4a9
+2023-12-09T20:02:14.048Z info: Received a GET request for /messages?userId=ba08c859-75d3-4004-b016-d05d215ec4a9&correspondingUserId=58c1f033-5b69-46fc-a41d-0623064039c8
+2023-12-09T20:02:18.314Z info: Received a POST request for /message
+2023-12-09T20:02:18.678Z info: Received a GET request for /messages?userId=58c1f033-5b69-46fc-a41d-0623064039c8&correspondingUserId=ba08c859-75d3-4004-b016-d05d215ec4a9
+2023-12-09T20:02:18.693Z info: Received a GET request for /messages?userId=ba08c859-75d3-4004-b016-d05d215ec4a9&correspondingUserId=58c1f033-5b69-46fc-a41d-0623064039c8
+2023-12-09T20:02:20.104Z info: Received a GET request for /users?userIds=[%22670d2f2c-2f48-44d8-8b13-f4b1de4726ff%22,%22e0f0e6b0-464d-4a87-bf43-bcd8dc2fc86a%22,%22ba08c859-75d3-4004-b016-d05d215ec4a9%22]
+2023-12-09T20:02:21.613Z info: Received a GET request for /messages?userId=58c1f033-5b69-46fc-a41d-0623064039c8&correspondingUserId=e0f0e6b0-464d-4a87-bf43-bcd8dc2fc86a
+2023-12-09T20:02:21.615Z info: Received a GET request for /messages?userId=e0f0e6b0-464d-4a87-bf43-bcd8dc2fc86a&correspondingUserId=58c1f033-5b69-46fc-a41d-0623064039c8
+2023-12-09T20:02:25.253Z info: Received a GET request for /users?userIds=[%22670d2f2c-2f48-44d8-8b13-f4b1de4726ff%22,%22e0f0e6b0-464d-4a87-bf43-bcd8dc2fc86a%22,%22ba08c859-75d3-4004-b016-d05d215ec4a9%22]
+2023-12-09T20:02:26.667Z info: Received a GET request for /messages?userId=58c1f033-5b69-46fc-a41d-0623064039c8&correspondingUserId=ba08c859-75d3-4004-b016-d05d215ec4a9
+2023-12-09T20:02:26.669Z info: Received a GET request for /messages?userId=ba08c859-75d3-4004-b016-d05d215ec4a9&correspondingUserId=58c1f033-5b69-46fc-a41d-0623064039c8
+2023-12-14T06:24:22.719Z info: App listening on port 8000!
+2023-12-14T06:28:35.570Z info: App listening on port 8000!
+2023-12-14T06:28:37.630Z info: Received a POST request for /login
+2023-12-14T06:28:39.619Z info: Received a GET request for /user?userId=someUserId
+2023-12-14T06:28:41.622Z info: Received a PUT request for /addmatch
+2023-12-14T06:28:43.627Z info: Received a GET request for /users?userIds=[%22userId1%22,%22userId2%22]
+2023-12-14T06:28:45.629Z info: Received a GET request for /gendered-users?gender=male
+2023-12-14T06:28:47.633Z info: Received a PUT request for /user
+2023-12-14T06:28:49.637Z info: Received a GET request for /messages?userId=someUserId&correspondingUserId=someOtherUserId
+2023-12-14T06:28:51.644Z info: Received a POST request for /message
+2023-12-14T06:29:51.517Z info: App listening on port 8000!
+2023-12-14T06:29:53.566Z info: Received a POST request for /login
+2023-12-14T06:29:55.563Z info: Received a GET request for /user?userId=someUserId
+2023-12-14T06:29:56.249Z error: Cannot read properties of null (reading 'hashed_password')
+2023-12-14T06:29:56.260Z info: Received a PUT request for /addmatch
+2023-12-14T06:29:56.861Z info: Received a GET request for /users?userIds=[%22userId1%22,%22userId2%22]
+2023-12-14T06:29:57.478Z info: Received a GET request for /gendered-users?gender=male
+2023-12-14T06:29:58.084Z info: Received a PUT request for /user
+2023-12-14T06:29:58.737Z info: Received a GET request for /messages?userId=someUserId&correspondingUserId=someOtherUserId
+2023-12-14T06:29:59.325Z info: Received a POST request for /message
+2023-12-14T06:40:13.149Z info: App listening on port 8000!
+2023-12-14T06:40:15.198Z info: Received a POST request for /login
+2023-12-14T06:40:17.191Z info: Received a GET request for /user?userId=someUserId
+2023-12-14T06:40:19.197Z info: Received a PUT request for /addmatch
+2023-12-14T06:40:21.203Z info: Received a GET request for /users?userIds=[%22userId1%22,%22userId2%22]
+2023-12-14T06:40:23.202Z info: Received a GET request for /gendered-users?gender=male
+2023-12-14T06:40:25.208Z info: Received a PUT request for /user
+2023-12-14T06:40:27.209Z info: Received a GET request for /messages?userId=someUserId&correspondingUserId=someOtherUserId
+2023-12-14T06:40:29.219Z info: Received a POST request for /message
+2023-12-14T06:42:26.000Z info: App listening on port 8000!
+2023-12-14T06:42:28.061Z info: Received a POST request for /login
+2023-12-14T06:42:30.062Z info: Received a GET request for /user?userId=someUserId
+2023-12-14T06:44:53.997Z info: App listening on port 8000!
+2023-12-14T06:44:56.079Z info: Received a POST request for /login
+2023-12-14T06:44:58.068Z info: Received a GET request for /user?userId=someUserId
+2023-12-14T06:45:00.074Z info: Received a PUT request for /addmatch
+2023-12-14T06:46:10.584Z info: App listening on port 8000!
+2023-12-14T06:46:34.465Z info: App listening on port 8000!
+2023-12-14T06:46:36.547Z info: Received a POST request for /login
+2023-12-14T06:48:48.295Z info: App listening on port 8000!
+2023-12-14T06:48:50.355Z info: Received a POST request for /login
+2023-12-14T06:48:52.354Z info: Received a GET request for /user?userId=someUserId
+2023-12-14T06:48:54.354Z info: Received a PUT request for /addmatch
+2023-12-14T06:48:56.361Z info: Received a GET request for /users?userIds=[%22userId1%22,%22userId2%22]
+2023-12-14T06:52:16.399Z info: App listening on port 8000!
+2023-12-14T06:52:18.460Z info: Received a POST request for /login
+2023-12-14T06:52:20.459Z info: Received a GET request for /user?userId=someUserId
+2023-12-14T06:52:20.531Z error: Cannot read properties of null (reading 'hashed_password')
+2023-12-14T06:52:21.083Z info: Received a PUT request for /addmatch
+2023-12-14T06:52:21.670Z info: Received a GET request for /users?userIds=[%22userId1%22,%22userId2%22]
+2023-12-14T06:52:22.249Z info: Received a GET request for /gendered-users?gender=male
+2023-12-14T08:25:43.567Z info: App listening on port 8000!
+2023-12-14T08:28:10.492Z info: App listening on port 8000!
+2023-12-14T08:28:50.759Z info: App listening on port 8000!
+2023-12-14T08:28:53.535Z info: Received a POST request for /login
+2023-12-14T08:28:54.172Z error: Cannot read properties of null (reading 'hashed_password')
+2023-12-14T08:28:55.521Z info: Received a GET request for /user?userId=someUserId
+2023-12-14T08:28:56.130Z info: Received a PUT request for /addmatch
+2023-12-14T08:28:56.806Z info: Received a GET request for /users?userIds=[%22userId1%22,%22userId2%22]
+2023-12-14T08:28:57.464Z info: Received a GET request for /gendered-users?gender=male
+2023-12-14T08:34:52.736Z info: App listening on port 8000!
+2023-12-14T08:34:56.638Z info: Received a POST request for /login
+2023-12-14T08:34:57.297Z error: Cannot read properties of null (reading 'hashed_password')
+2023-12-14T08:34:58.628Z info: Received a GET request for /user?userId=someUserId
+2023-12-14T08:34:59.193Z info: Received a PUT request for /addmatch
+2023-12-14T08:34:59.863Z info: Received a GET request for /users?userIds=[%22userId1%22,%22userId2%22]
+2023-12-14T08:35:26.729Z info: App listening on port 8000!
+2023-12-14T08:36:00.561Z info: App listening on port 8000!
+2023-12-14T08:36:23.961Z info: App listening on port 8000!
+2023-12-14T08:37:56.775Z info: App listening on port 8000!
+2023-12-14T08:39:05.333Z info: App listening on port 8000!
+2023-12-14T08:40:35.587Z info: App listening on port 8000!
+2023-12-14T08:41:21.407Z info: App listening on port 8000!
+2023-12-14T08:44:39.335Z info: App listening on port 8000!
+2023-12-14T08:45:01.305Z info: App listening on port 8000!
+2023-12-14T08:45:54.172Z info: App listening on port 8000!
+2023-12-14T09:10:07.670Z info: App listening on port 8000!
+2023-12-14T09:10:58.861Z info: App listening on port 8000!
+2023-12-14T09:17:28.304Z info: App listening on port 8000!
+2023-12-14T09:17:28.361Z info: Received a POST request for /signup
+2023-12-14T09:19:27.098Z info: App listening on port 8000!
+2023-12-14T09:19:27.147Z info: Received a POST request for /signup
+2023-12-14T09:20:41.061Z info: App listening on port 8000!
+2023-12-14T09:20:41.109Z info: Received a POST request for /signup
+2023-12-14T09:20:41.111Z info: test@example.com
+2023-12-14T09:20:58.800Z info: App listening on port 8000!
+2023-12-14T09:20:58.864Z info: Received a POST request for /signup
+2023-12-14T09:20:58.868Z info: mongodb+srv://sathvikibhat:tmPfLllBWCmRIrEG@cluster0.5ujsgy9.mongodb.net/?retryWrites=true&w=majority
+2023-12-14T09:22:05.561Z info: App listening on port 8000!
+2023-12-14T09:22:05.633Z info: Received a POST request for /signup
+2023-12-14T09:22:05.643Z info: [object Object]
+2023-12-14T09:22:29.390Z info: App listening on port 8000!
+2023-12-14T09:22:29.439Z info: Received a POST request for /signup
+2023-12-14T09:22:29.442Z info: [object Object]
+2023-12-14T09:23:23.468Z info: App listening on port 8000!
+2023-12-14T09:23:23.519Z info: Received a POST request for /signup
+2023-12-14T09:23:23.522Z info: [object Object]
+2023-12-14T09:23:25.126Z info: [object Object]
+2023-12-14T09:23:57.925Z info: App listening on port 8000!
+2023-12-14T09:23:57.975Z info: Received a POST request for /signup
+2023-12-14T09:23:57.977Z info: [object Object]
+2023-12-14T09:24:00.343Z info: [object Object]
+2023-12-14T09:24:26.445Z info: App listening on port 8000!
+2023-12-14T09:24:26.494Z info: Received a POST request for /signup
+2023-12-14T09:24:26.496Z info: [object Object]
+2023-12-14T09:24:51.724Z info: App listening on port 8000!
+2023-12-14T09:24:51.776Z info: Received a POST request for /signup
+2023-12-14T09:24:51.778Z info: [object Object]
+2023-12-14T09:25:14.462Z info: App listening on port 8000!
+2023-12-14T09:25:14.516Z info: Received a POST request for /signup
+2023-12-14T09:25:14.518Z info: [object Object]
+2023-12-14T09:25:50.210Z info: App listening on port 8000!
+2023-12-14T09:25:50.264Z info: Received a POST request for /signup
+2023-12-14T09:25:50.266Z info: [object Object]
+2023-12-14T09:26:27.530Z info: App listening on port 8000!
+2023-12-14T09:26:27.583Z info: Received a POST request for /signup
+2023-12-14T09:26:27.585Z info: [object Object]
+2023-12-14T09:27:03.086Z info: App listening on port 8000!
+2023-12-14T09:27:03.135Z info: Received a POST request for /signup
+2023-12-14T09:27:03.138Z info: [object Object]
+2023-12-14T09:27:04.150Z info: [object Object]
+2023-12-14T09:27:36.523Z info: App listening on port 8000!
+2023-12-14T09:27:36.572Z info: Received a POST request for /signup
+2023-12-14T09:27:36.575Z info: [object Object]
+2023-12-14T09:27:37.287Z info: [object Object]
+2023-12-14T09:28:15.300Z info: App listening on port 8000!
+2023-12-14T09:28:15.350Z info: Received a POST request for /signup
+2023-12-14T09:28:15.353Z info: [object Object]
+2023-12-14T09:28:16.937Z info: [object Object]
+2023-12-14T09:29:22.428Z info: App listening on port 8000!
+2023-12-14T09:29:22.496Z info: Received a POST request for /signup
+2023-12-14T09:29:22.499Z info: [object Object]
+2023-12-14T09:29:24.670Z info: [object Object]
+2023-12-14T09:29:24.671Z info: test@example.com
+2023-12-14T09:29:49.587Z info: App listening on port 8000!
+2023-12-14T09:29:49.642Z info: Received a POST request for /signup
+2023-12-14T09:29:49.645Z info: [object Object]
+2023-12-14T09:29:50.292Z info: [object Object]
+2023-12-14T09:29:50.292Z info: test@example.com
+2023-12-14T09:29:50.292Z info: [object Object]
+2023-12-14T09:30:10.103Z info: App listening on port 8000!
+2023-12-14T09:30:10.153Z info: Received a POST request for /signup
+2023-12-14T09:30:10.156Z info: [object Object]
+2023-12-14T09:30:10.827Z info: [object Object]
+2023-12-14T09:30:10.827Z info: test@example.com
+2023-12-14T09:30:10.884Z info: [object Object]
+2023-12-14T09:30:41.846Z info: App listening on port 8000!
+2023-12-14T09:30:41.907Z info: Received a POST request for /signup
+2023-12-14T09:30:43.162Z info: [object Object]
+2023-12-14T09:31:48.628Z info: App listening on port 8000!
+2023-12-14T09:31:48.676Z info: Received a POST request for /signup
+2023-12-14T09:31:52.422Z info: [object Object]
+2023-12-14T09:32:28.715Z info: App listening on port 8000!
+2023-12-14T09:32:28.805Z info: Received a POST request for /signup
+2023-12-14T09:32:30.141Z info: [object Object]
+2023-12-14T09:33:06.959Z info: App listening on port 8000!
+2023-12-14T09:33:07.016Z info: Received a POST request for /signup
+2023-12-14T09:33:08.898Z info: [object Object]
+2023-12-14T09:33:08.926Z info: Received a POST request for /login
+2023-12-14T09:33:09.649Z error: Cannot set headers after they are sent to the client
+2023-12-14T09:35:09.277Z info: App listening on port 8000!
+2023-12-14T09:35:09.330Z info: Received a POST request for /signup
+2023-12-14T09:35:10.849Z info: [object Object]
+2023-12-14T09:35:10.867Z info: Received a POST request for /login
+2023-12-14T09:35:11.463Z error: Cannot set headers after they are sent to the client
+2023-12-14T09:38:12.849Z info: App listening on port 8000!
+2023-12-14T09:38:12.904Z info: Received a POST request for /signup
+2023-12-14T09:38:15.137Z info: [object Object]
+2023-12-14T09:38:22.904Z info: Received a POST request for /login
+2023-12-14T09:38:23.836Z error: Cannot set headers after they are sent to the client
+2023-12-14T09:38:49.984Z info: App listening on port 8000!
+2023-12-14T09:38:50.043Z info: Received a POST request for /signup
+2023-12-14T09:38:50.800Z info: [object Object]
+2023-12-14T09:38:50.817Z info: Received a POST request for /login
+2023-12-14T09:38:51.448Z error: Cannot set headers after they are sent to the client
+2023-12-14T09:39:39.110Z info: App listening on port 8000!
+2023-12-14T09:39:39.165Z info: Received a POST request for /signup
+2023-12-14T09:39:40.706Z info: [object Object]
+2023-12-14T09:39:40.731Z info: Received a POST request for /login
+2023-12-14T09:39:42.762Z error: Cannot set headers after they are sent to the client
+2023-12-14T09:39:42.770Z info: Received a GET request for /user?userId=someUserId
+2023-12-14T09:39:43.297Z info: Received a PUT request for /addmatch
+2023-12-14T09:39:43.854Z info: Received a GET request for /users?userIds=[%22userId1%22,%22userId2%22]
+2023-12-14T09:39:44.435Z info: Received a GET request for /gendered-users?gender=male
+2023-12-14T09:39:44.989Z info: Received a PUT request for /user
+2023-12-14T09:39:45.556Z info: Received a GET request for /messages?userId=someUserId&correspondingUserId=someOtherUserId
+2023-12-14T09:39:46.241Z info: Received a POST request for /message
+2023-12-14T09:41:51.194Z info: App listening on port 8000!
+2023-12-14T09:41:51.250Z info: Received a POST request for /signup
+2023-12-14T09:41:53.433Z info: [object Object]
+2023-12-14T09:41:53.453Z info: Received a POST request for /login
+2023-12-14T09:41:54.101Z error: Cannot set headers after they are sent to the client
+2023-12-14T09:41:54.111Z info: Received a GET request for /gendered-users?gender=male
+2023-12-14T09:41:54.643Z info: Received a GET request for /messages?userId=someUserId&correspondingUserId=someOtherUserId
+2023-12-14T09:41:55.204Z info: Received a POST request for /message
+2023-12-14T09:42:55.678Z info: App listening on port 8000!
+2023-12-14T09:42:55.731Z info: Received a POST request for /signup
+2023-12-14T09:42:57.109Z info: [object Object]
+2023-12-14T09:42:57.135Z info: Received a POST request for /login
+2023-12-14T09:42:57.918Z error: Cannot set headers after they are sent to the client
+2023-12-14T09:42:57.927Z info: Received a GET request for /gendered-users?gender=male
+2023-12-14T09:42:58.490Z info: Received a GET request for /messages?userId=someUserId&correspondingUserId=someOtherUserId
+2023-12-14T09:42:59.049Z info: Received a POST request for /message
+2023-12-14T09:43:37.448Z info: App listening on port 8000!
+2023-12-14T09:43:37.528Z info: Received a POST request for /signup
+2023-12-14T09:43:38.241Z info: Received a POST request for /login
+2023-12-14T09:43:38.841Z error: Cannot set headers after they are sent to the client
+2023-12-14T09:43:38.849Z info: Received a GET request for /gendered-users?gender=male
+2023-12-14T09:43:39.406Z info: Received a GET request for /messages?userId=someUserId&correspondingUserId=someOtherUserId
+2023-12-14T09:43:40.021Z info: Received a POST request for /message

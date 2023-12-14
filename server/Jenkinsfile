@@ -35,12 +35,14 @@ pipeline {
             }
         }
 
-        // stage('Test') {
-        //     steps {
-        //         sh 'chmod +x ./jenkins/scripts/test.sh'
-        //         sh './jenkins/scripts/test.sh'
-        //     }
-        // }
+        stage('Test') {
+            steps {
+                // sh 'chmod +x ./jenkins/scripts/test.sh'
+                dir('server') {
+                    sh 'npm run test'
+                }
+            }
+        }
         stage('Build Docker Image') {
             steps {
                 script{
