@@ -9,15 +9,15 @@ services:
     ports:
       - 27017:27017
   playground-web-frontend:
-    image: sathvik04/tinder-clone:latest
+    image: sathvik04/wagging-tails-clone:latest
     environment:
       PORT: 3000
-      PROXY_API: http://tinder-server:8000/
+      PROXY_API: http://wagging-tails-server:8000/
     restart: always
     ports:
       - 3000:3000
   playground-web-backend:
-    image: sathvik04/tinder-server:latest
+    image: sathvik04/wagging-tails-server:latest
     environment:
       URI: mongodb://playground-web-db:27017
     restart: always
