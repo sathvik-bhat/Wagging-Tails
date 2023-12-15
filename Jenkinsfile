@@ -22,47 +22,15 @@ pipeline {
                 credentialsId: 'Credential_Git'
             }
         }
-        stage('Build') {
+        
+        stage('Deploy') {
             steps {
-                sh 'npm install'
-                sh 'tar czf Node.tar.gz client server docker-compose.yml'
+                // sh 'chmod 600 scientific-calculator.pem'
+                ansiblePlaybook becomeUser: 'sathvik', colorized: true, disableHostKeyChecking: true, installation: 'ansible', inventory: 'inventory',
+                playbook: 'playbook.yml', sudoUser: 'sathvik'
+                // ansiblePlaybook credentialsId: 'localhost_ssh', disableHostKeyChecking: true, installation: 'ansible', inventory: 'inventory', playbook: 'playbook.yml'
+                // sh 'ansible-playbook -i inventory playbook.yml --private-key key'
             }
         }
-
-        // stage('Test') {
-        //     steps {
-        //         sh 'chmod +x ./jenkins/scripts/test.sh'
-        //         sh './jenkins/scripts/test.sh'
-        //     }
-        // }
-        // stage('Build Docker Image') {
-
-        //     steps {
-        //         script{
-        //             dockerimage = sh 'docker build -t '+registry+':latest .'
-        //         }
-        //     }
-        // }
-        // stage('Push Image to dockerHub') {
-        //     steps {
-        //         withCredentials([string(credentialsId: 'dockerhub_pwd', variable: 'dockerhub_pwd')]) {
-        //             sh 'docker login -u "sathvik04" -p ${dockerhub_pwd}'
-        //             sh 'docker push ' +registry +':latest'
-        //         }
-        //     }
-        // }
-        // stage('Free local space') {
-        //     steps {
-        //         sh 'docker rmi $registry:latest'
-        //     }
-        // }
-
-        // stage('Deploy') {
-        //     steps {
-        //         sh 'chmod 600 scientific-calculator.pem'
-        //         ansiblePlaybook becomeUser: null, colorized: true, disableHostKeyChecking: true, installation: 'ansible', inventory: 'inventory',
-        //         playbook: 'playbook.yml', sudoUser: null, extras: '-e "image_name=sathvik04/scientific-calculator"'
-        //     }
-        // }
     }
 }  

@@ -10,7 +10,7 @@ pipeline {
     
      environment {
             CI = 'true'
-            registry = 'sathvik04/tinder-server'
+            registry = 'sathvik04/wagging-tails-server'
             DOCKERHUB_CRED = credentials('dockerhub_id')
             registryCredential = 'dockerhub_id'
             dockerimage = ''
@@ -18,7 +18,7 @@ pipeline {
     stages {
         stage('Git Pull') {
             steps {
-                git url: 'https://github.com/sathvik-bhat/Tinder.git', branch: 'main',
+                git url: 'https://github.com/sathvik-bhat/Wagging-Tails.git', branch: 'main',
                 credentialsId: 'Credential_Git'
                 // dir('subDir') {
                 //     checkout scm
@@ -66,12 +66,5 @@ pipeline {
             }
         }
 
-        // stage('Deploy') {
-        //     steps {
-        //         sh 'chmod 600 scientific-calculator.pem'
-        //         ansiblePlaybook becomeUser: null, colorized: true, disableHostKeyChecking: true, installation: 'ansible', inventory: 'inventory',
-        //         playbook: 'playbook.yml', sudoUser: null, extras: '-e "image_name=sathvik04/scientific-calculator"'
-        //     }
-        // }
     }
 }  
