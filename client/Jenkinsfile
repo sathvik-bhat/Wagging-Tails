@@ -18,7 +18,7 @@ pipeline {
     stages {
         stage('Git Pull') {
             steps {
-                git url: 'https://github.com/sathvik-bhat/Tinder.git', branch: 'main',
+                git url: 'https://github.com/sathvik-bhat/Wagging-Tails.git', branch: 'main',
                 credentialsId: 'Credential_Git'
                 // dir('subDir') {
                 //     checkout scm

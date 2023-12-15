@@ -302,3 +302,10 @@
 2023-12-14T09:43:38.849Z info: Received a GET request for /gendered-users?gender=male
 2023-12-14T09:43:39.406Z info: Received a GET request for /messages?userId=someUserId&correspondingUserId=someOtherUserId
 2023-12-14T09:43:40.021Z info: Received a POST request for /message
+2023-12-15T03:43:18.045Z info: App listening on port 8000!
+2023-12-15T03:44:01.459Z info: Received a POST request for /login
+2023-12-15T03:44:04.250Z error: Cannot set headers after they are sent to the client
+2023-12-15T03:44:04.507Z info: Received a GET request for /user?userId=58c1f033-5b69-46fc-a41d-0623064039c8
+2023-12-15T03:44:07.109Z info: Received a GET request for /users?userIds=[%22670d2f2c-2f48-44d8-8b13-f4b1de4726ff%22,%22e0f0e6b0-464d-4a87-bf43-bcd8dc2fc86a%22,%22ba08c859-75d3-4004-b016-d05d215ec4a9%22]
+2023-12-15T03:44:07.113Z info: Received a GET request for /gendered-users?gender=woman
+2023-12-15T04:05:31.031Z info: App listening on port 8000!
